@@ -52,7 +52,7 @@ document.getElementById("khongButton").addEventListener("click", function () {
 
     // Tăng kích thước nút "Có"
     const coCurrentSize = parseFloat(window.getComputedStyle(coButton).fontSize);
-    const coNewSize = coCurrentSize + 5; // Tăng kích thước mỗi lần nhấn
+    const coNewSize = coCurrentSize + 15; // Tăng kích thước mỗi lần nhấn
     coButton.style.fontSize = `${coNewSize}px`;
 
     // Di chuyển nút "Không" đến vị trí ngẫu nhiên
